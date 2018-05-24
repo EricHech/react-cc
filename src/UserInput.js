@@ -55,7 +55,7 @@ class UserInput extends Component {
         >
           Toggle Punchline
         </button>
-        {this.state.reveal ? this.displayJoke() : <div />}
+        {this.state.reveal && this.displayJoke()}
       </div>
     );
   }
